@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Интернет-магазин "ТуристиКО"</title>
+</head>
+
+<body>
+    <!--Шапка-->
+        <div class="header">
+            <img style="width: 128px; height: 128px; left: 0px; top: 10px; position: absolute" src="content/logo_1.png" />
+            <a id="company-name" class="header" href="index.html">ТуристиКО</a>
+            <p class="header" id="city">Пермь</p>
+            <p class="header" id="email">turistiko@info.com</p>
+            <p class="header" id="phone-number">+7 (912) 498-34-22</p>
+            <a href="checkout.html"><img style="width: 128px; height: 128px; left: 1072px; top: 0px; position: absolute" src="content/checkout_1.png" /></a>
+            </div>
+        </div>
+    <!--Конец Шапка-->
+
+    <!--Конец Шапка-->
+
+    <!--Меню-->
+    <div style="width: 1280px; height: 50px; left: 0px; top: 120px; position: absolute">
+        <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute; background: #3EBB1F"></div>
+        <div style="width: 86px; height: 29px; left: 80px; top: 11px; position: absolute">
+            <div style="width: 86px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <a href="about.html" style="width: 71px; height: 25px; left: 8px; top: -5px; bottom: 0px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word; text-decoration: none;">О нас</a>
+        </div>
+
+    <!--Каталог-->
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Каталог</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Каталог</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+                <ul class="dropdown-menu-offcanvas" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item-offcanvas" href="catalogue_popular_products.html">Популярные товары</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-bestselling.html">Лидеры продаж</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-sleeping-bags.html">Спальники</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-tents.html">Палатки </a></li>
+                </ul>
+            </div>
+        </div>
+    <!--Конец Каталог-->        
+    <!--
+        <div style="width: 109px; height: 29px; left: 350px; top: 11px; position: absolute">
+            <div style="width: 109px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <div style="width: 101px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">
+
+            </div>
+        </div>
+    -->
+    
+<!--Bootstrap Мой кабинет-->
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Мой кабинет
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="registration_new.html">Регистрация</a></li>
+            <li><a class="dropdown-item" href="auth_new.html">Авторизация</a></li>
+            <li><a class="dropdown-item" href="pv_cab_new.html">Мой кабинет</a></li>
+        </ul>
+    </div>
+<!--Конец Bootstrap Мой кабинет-->
+    
+    <!--
+        <div style="width: 166px; height: 29px; left: 670px; top: 11px; position: absolute">
+            <div style="width: 166px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <div style="width: 158px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Мой кабинет</div>
+        </div>
+    -->
+    
+    <div style="width: 180px; height: 29px; left: 1020px; top: 11px; position: absolute">
+            <div style="width: 180px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <a href="location.html" style="width: 168px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word; text-decoration: none;">Где нас найти</a>
+        </div>
+    </div>
+    <!--Конец Меню-->
+
+    <!--Слайдер-->
+    <div id="carouselExampleCaptions" class="carousel slide" style="width: 1270px; height: 441px; left: 0px; top: 170px; bottom: 2239px;" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"  aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="width: 1270px; height: 441px; left: 0px; top: 0px; color: black;">
+            <div class="carousel-item active">
+                <img src="content/palantki.jpg" class="d-block w-100" alt="..." style="width: 1270px; height: 441px; left: 0px; top: 0px; color: black; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block" style="width: 1110px; height: 374px; left: 63px; top: 300px;">
+                    <h5>Палатки</h5>
+                    <p style="font-size: large; left: 50px">Удобные палатки для вашего комфорта.</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="width: 1270px; height: 441px; left: 0px; top: 0px; color: black;">
+                <img src="content/spalniki.png" class="d-block w-100" alt="..." style="color: black; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Спальники</h5>
+                    <p style="font-size: large;">Комфортные и мягкие спальники для уюта!</p>
+                </div>
+            </div>
+            <div class="carousel-item" style="width: 1270px; height: 441px; left: 0px; top: 0px; color: black;">
+                <img src="content/fonari.webp" class="d-block w-100" alt="..." style="object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Фонарики </h5>
+                    <p style="font-size: large;">Верный союзник в вашем путешествии.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" style="width: 3rem; height: 3rem; left: 0px; top: 10px; position: relative; color: black;" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" style="width: 3rem; height: 3rem; left: 0px; top: 10px; position: relative; color: black;" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!--Конец Слайдер-->
+
+    <!--Популярные товары-->
+        <div class="popular-products">
+            <p class="popular-products" id="popular-products-title">Популярные товары</p>
+            <img style="width: 200px; height: 133px; left: 0px; top: 96px; position: absolute" src="content/popular_1.png" />
+            <img style="width: 200px; height: 141.50px; left: 245px; top: 96px; position: absolute" src="content/popular_2.png" />
+            <img style="width: 200px; height: 111.50px; left: 490px; top: 106px; position: absolute" src="content/popular_3.png" />
+            <img style="width: 200px; height: 124.50px; left: 735px; top: 100px; position: absolute" src="content/popular_4.png" />
+            <img style="width: 130px; height: 138.67px; left: 980px; top: 98px; position: absolute" src="content/popular_5.png" />
+            <div style="left: 1px; top: 275px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>Campus Coguar 250</div>
+            <div style="left: 1px; top: 345px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">6 887 Р</div>
+            <div style="left: 245px; top: 345px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">6 990 Р</div>
+            <div style="left: 497px; top: 345px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">16 399 Р</div>
+            <div style="left: 732px; top: 345px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">8 346 Р</div>
+            <div style="left: 980px; top: 345px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">1 799 Р</div>
+            <div style="left: 245px; top: 279px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>Trek Planet Norge</div>
+            <div style="left: 497px; top: 283px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>Alexika Siberia Plus</div>
+            <div style="left: 735px; top: 287px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка <br/>    Indiana Hogar 3</div>
+            <div style="left: 980px; top: 287px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Кружка <br/>    Tatonka Mug</div>
+        </div>
+    <!--Конец Популярные товары-->
+
+    <!--Лидеры продаж-->
+        <div style="width: 1136px; height: 376px; left: 64px; top: 1126px; position: absolute">
+            <div style="left: 472px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">Лидеры продаж</div>
+            <div style="left: 0px; top: 277px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Tramp Lite <br/>    Camp 4</div>
+            <div style="left: 0px; top: 347px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">12 500 Р</div>
+            <div style="left: 244px; top: 347px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">7 000 Р</div>
+            <div style="left: 496px; top: 347px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">31 363 Р</div>
+            <div style="left: 731px; top: 347px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">24 990 Р</div>
+            <div style="left: 979px; top: 347px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">7 490 Р</div>
+            <img style="width: 200px; height: 200px; left: 0px; top: 68px; position: absolute" src="content/bestselling_1.png" />
+            <img style="width: 200px; height: 144px; left: 244px; top: 96px; position: absolute" src="content/bestselling_2.png" />
+            <img style="width: 200px; height: 116.50px; left: 496px; top: 96px; position: absolute" src="content/bestselling_3.png" />
+            <img style="width: 180px; height: 119.70px; left: 731px; top: 96px; position: absolute" src="content/bestselling_4.png" />
+            <img style="width: 157px; height: 120px; left: 979px; top: 96px; position: absolute" src="content/bestselling_5.png" />
+            <div style="left: 244px; top: 281px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Easy Camp <br/>    Quasar 200</div>
+            <div style="left: 496px; top: 285px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Canadian <br/>    Camper Sana 4 Plus</div>
+            <div style="left: 734px; top: 289px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Tramp <br/>    Rock 4 V2</div>
+            <div style="left: 979px; top: 289px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Jungle <br/>Camp Texas 4 </div>
+        </div>
+    <!--Конец Лидеры продаж-->
+
+    <!--Палатки-->
+        <div style="width: 1144px; height: 382px; left: 64px; top: 1580px; position: absolute">
+            <div style="left: 522px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">Палатки</div>
+            <div style="left: 0px; top: 283px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Canadian <br/>    Camper Impala 2</div>
+            <div style="left: 0px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">9 705 Р</div>
+            <div style="left: 244px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">8 006 Р</div>
+            <div style="left: 496px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">12 152Р</div>
+            <div style="left: 731px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">4 190 Р</div>
+            <div style="left: 979px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">8 299 Р</div>
+            <img style="width: 200px; height: 133px; left: 228px; top: 107px; position: absolute" src="content/tents_2.png" />
+            <img style="width: 171px; height: 126px; left: 496px; top: 111px; position: absolute" src="content/tents_3.png" />
+            <img style="width: 184px; height: 131px; left: 731px; top: 111px; position: absolute" src="content/tents_4.png" />
+            <img style="width: 157px; height: 109.11px; left: 979px; top: 119px; position: absolute" src="content/tents_5.png" />
+            <img style="width: 178px; height: 133px; left: 0px; top: 107px; position: absolute" src="content/tents_1.png" />
+            <div style="left: 244px; top: 287px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Indiana <br/>    Tramp 2</div>
+            <div style="left: 496px; top: 291px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка авто <br/>    Norfin Zope 2 NF</div>
+            <div style="left: 734px; top: 295px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Jungle Camp <br/>    Alaska 2</div>
+            <div style="left: 979px; top: 295px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка High Peak <br/>    Minipack</div>
+        </div>
+    <!--Конец Палатки-->
+
+    <!--Спальники-->
+        <div style="width: 1152px; height: 382px; left: 64px; top: 2020px; position: absolute">
+            <div style="left: 522px; top: 0px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">Спальники</div>
+            <div style="left: 0px; top: 283px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>    Totem Ember</div>
+            <div style="left: 0px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">9 705 Р</div>
+            <div style="left: 244px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">8 006 Р</div>
+            <div style="left: 496px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">12 152Р</div>
+            <div style="left: 731px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">4 190 Р</div>
+            <div style="left: 979px; top: 353px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 500; letter-spacing: 1.20px; word-wrap: break-word">8 299 Р</div>
+            <img style="width: 198px; height: 175px; left: 477px; top: 92px; position: absolute" src="content/slbags_3.png" />
+            <img style="width: 184px; height: 155.48px; left: 731px; top: 108px; position: absolute" src="content/slbags_4.png" />
+            <img style="width: 178px; height: 178px; left: 0px; top: 85px; position: absolute" src="content/slbags_1.png" />
+            <div style="left: 244px; top: 287px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>    Indiana Camper Plus</div>
+            <div style="left: 496px; top: 291px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Спальный мешок <br/>    Indiana Camper</div>
+            <div style="left: 734px; top: 295px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка Jungle Camp <br/>    Alaska 2</div>
+            <div style="left: 979px; top: 295px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; letter-spacing: 0.80px; word-wrap: break-word">Палатка High Peak <br/>    Minipack</div>
+            <img style="width: 176px; height: 125px; left: 244px; top: 119px; position: absolute" src="content/slbags_2.png" />
+            <img style="width: 173px; height: 125px; left: 979px; top: 119px; position: absolute" src="content/slbags_5.png" />
+        </div>
+    <!--Конец Спальники-->
+
+    <!--О магазине-->
+        <div style="width: 592px; height: 239px; left: 35px; top: 2467px; position: absolute"><span style="color: black; font-size: 32px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">О магазине<br/></span><span style="color: black; font-size: 16px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Туристический он-лайн гипермаркет «ТуристиКО» – один из динамично развивающихся интернет-проектов компании Avenue Retail, целью которого является предоставление качественных спортивных товаров для туризма и отдыха по России и странам СНГ.<br/>«ТуристиКО» – это место, где вы всегда сможете обеспечить себя и свою семью всем необходимым снаряжением для похода, кемпинга, путешествия, автотуризма, отдыха в выходных на природе или просто на даче.</span></div>
+    <!--Конец О магазине-->
+
+    <!--Почему мы?-->
+        <div style="width: 211px; height: 45px; left: 655px; top: 2467px; position: absolute; color: black; font-size: 32px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Почему мы?<br/></div>
+    <!--Конец Почему мы-->
+
+    <!--Отзывы-->
+        <div style="width: 525px; height: 174.60px; left: 656px; top: 2519px; position: absolute">
+            <img style="width: 80px; height: 77.60px; left: 292px; top: 94px; position: absolute" src="content/person_4.png" />
+            <div style="width: 126px; height: 15px; left: 104px; top: 41px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Идеальное качество!</div>
+            <div style="width: 126px; height: 15px; left: 399px; top: 41px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Очень доволен качеством товара.</div>
+            <div style="width: 126px; height: 15px; left: 104px; top: 137px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Товар пришёл в кратчайшие сроки!</div>
+            <div style="width: 126px; height: 15px; left: 399px; top: 137px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Буду рекомендовать друзьям)</div>
+            <div style="width: 47px; height: 15px; left: 104px; top: 106px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Максим</div>
+            <div style="width: 47px; height: 15px; left: 104px; top: 6px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Данил</div>
+            <div style="width: 65px; height: 15px; left: 399px; top: 6px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Александр</div>
+            <div style="width: 37px; height: 15px; left: 399px; top: 106px; position: absolute; color: black; font-size: 12px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Ольга</div>
+            <div style="width: 34px; height: 11px; left: 104px; top: 123px; position: absolute; color: black; font-size: 10px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">(10/10)</div>
+            <div style="width: 34px; height: 11px; left: 104px; top: 25px; position: absolute; color: black; font-size: 10px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">(10/10)</div>
+            <div style="width: 34px; height: 11px; left: 399px; top: 25px; position: absolute; color: black; font-size: 10px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">(10/10)</div>
+            <div style="width: 34px; height: 11px; left: 399px; top: 123px; position: absolute; color: black; font-size: 10px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">(10/10)</div>
+            <img style="width: 80px; height: 77.60px; left: 290px; top: 0px; position: absolute" src="content/person_3.png" />
+            <img style="width: 80px; height: 77.60px; left: 0px; top: 0px; position: absolute" src="content/person_1.png" />
+            <img style="width: 80px; height: 77.60px; left: 0px; top: 97px; position: absolute" src="content/person_2.png" />
+        </div>
+    <!--Конец Отзывы-->
+
+    <!--Обратная связь-->
+        <div style="width: 1200px; height: 138px; position: relative; background: white">
+            <div style="width: 1280px; height: 146px; left: -1310px; top: 2731px; position: absolute">
+                <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute">
+                    <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute; background: #3EBB1F"></div>
+                    <div style="width: 521px; height: 29px; left: 696px; top: 10px; position: absolute; background: #39C716"></div>
+                    <div style="width: 310px; height: 29px; left: 170px; top: 11px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Держите с нами контакт!</div>
+                    <div style="width: 189px; height: 29px; left: 866px; top: 10px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Обратная связь</div>
+                </div>
+    <!--Конец Обратная связь-->
+
+    <!--Подвал-->
+            <div style="width: 312px; left: 905px; top: 82px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">09.02.07 Информационные системы и программирование    Кирик Дмитрий Юрьевич, 2-ИС</div>
+            <div style="width: 312px; left: 65px; top: 92px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">ГБПОУ “Пермский Краевой Колледж “ОНИКС”, ул. Пушкина, 107А</div>
+            <img style="width: 70px; height: 70px; left: 475px; top: 76px; position: absolute" src="content/vk.png" />
+            <img style="width: 70px; height: 70px; left: 600px; top: 76px; position: absolute" src="content/ok.png" />
+            <img style="width: 70px; height: 70px; left: 725px; top: 76px; position: absolute" src="content/yt.png" />
+        </div>
+    <!--Конец Подвал-->
+</body>
+</html>

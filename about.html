@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Интернет-магазин "ТуристиКО"</title>
+</head>
+<body>
+    <!--Шапка-->
+    <div class="header">
+        <img style="width: 128px; height: 128px; left: 0px; top: 10px; position: absolute" src="content/logo_1.png" />
+        <a id="company-name" class="header" href="index.html">ТуристиКО</a>
+        <p class="header" id="city">Пермь</p>
+        <p class="header" id="email">turistiko@info.com</p>
+        <p class="header" id="phone-number">+7 (912) 498-34-22</p>
+        <a href="checkout.html"><img style="width: 128px; height: 128px; left: 1072px; top: 0px; position: absolute" src="content/checkout_1.png" /></a>
+        </div>
+    </div>
+    <!--Конец Шапка--> 
+
+    <!--Меню-->
+    <div style="width: 1280px; height: 50px; left: 0px; top: 120px; position: absolute">
+        <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute; background: #3EBB1F"></div>
+        <div style="width: 86px; height: 29px; left: 80px; top: 11px; position: absolute">
+            <div style="width: 86px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <a href="about.html" style="width: 71px; height: 25px; left: 8px; top: -5px; bottom: 0px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word; text-decoration: none;">О нас</a>
+        </div>
+
+    <!--Каталог-->
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Каталог</button>
+
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Каталог</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+                <ul class="dropdown-menu-offcanvas" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item-offcanvas" href="catalogue_popular_products.html">Популярные товары</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-bestselling.html">Лидеры продаж</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-sleeping-bags.html">Спальники</a></li>
+                    <li><a class="dropdown-item-offcanvas" href="catalogue-tents.html">Палатки </a></li>
+                </ul>
+            </div>
+        </div>
+    <!--Конец Каталог-->        
+    <!--
+        <div style="width: 109px; height: 29px; left: 350px; top: 11px; position: absolute">
+            <div style="width: 109px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <div style="width: 101px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">
+
+            </div>
+        </div>
+    -->
+    
+<!--Bootstrap Мой кабинет-->
+    <div class="dropdown">
+        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Мой кабинет
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="registration_new.html">Регистрация</a></li>
+            <li><a class="dropdown-item" href="auth_new.html">Авторизация</a></li>
+            <li><a class="dropdown-item" href="pv_cab_new.html">Мой кабинет</a></li>
+        </ul>
+    </div>
+<!--Конец Bootstrap Мой кабинет-->
+    
+    <!--
+        <div style="width: 166px; height: 29px; left: 670px; top: 11px; position: absolute">
+            <div style="width: 166px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <div style="width: 158px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Мой кабинет</div>
+        </div>
+    -->
+    
+    <div style="width: 180px; height: 29px; left: 1020px; top: 11px; position: absolute">
+            <div style="width: 180px; height: 29px; left: 0px; top: 0px; position: absolute; background: #39C716"></div>
+            <a href="location.html" style="width: 168px; height: 29px; left: 8px; top: -5px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word; text-decoration: none;">Где нас найти</a>
+        </div>
+    </div>
+    <!--Конец Меню-->
+
+
+        <div style="width: 1280px; height: 146px; left: 1px; top: 3441px; position: absolute">
+            <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 1280px; height: 50px; left: 0px; top: 0px; position: absolute; background: #3EBB1F"></div>
+                <div style="width: 521px; height: 29px; left: 696px; top: 10px; position: absolute; background: #39C716"></div>
+                <div style="width: 310px; height: 29px; left: 170px; top: 11px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Держите с нами контакт!</div>
+                <div style="width: 189px; height: 29px; left: 866px; top: 10px; position: absolute; color: white; font-size: 24px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">Обратная связь</div>
+            </div>
+        
+            <div style="width: 312px; left: 905px; top: 82px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">09.02.07 Информационные системы и программирование    Кирик Дмитрий Юрьевич, 2-ИС</div>
+            <div style="width: 312px; left: 65px; top: 92px; position: absolute; color: black; font-size: 16px; font-family: Segoe UI; font-weight: 500; word-wrap: break-word">ГБПОУ “Пермский Краевой Колледж “ОНИКС”, ул. Пушкина, 107А</div>
+            <img style="width: 70px; height: 70px; left: 475px; top: 76px; position: absolute" src="content/vk.png" />
+            <img style="width: 70px; height: 70px; left: 600px; top: 76px; position: absolute" src="content/ok.png" />
+            <img style="width: 70px; height: 70px; left: 725px; top: 76px; position: absolute" src="content/yt.png" />
+        </div>
+
+    
+        <div style="width: 1057px; height: 47px; left: 112px; top: 712px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">О нас<br/></div>
+        <div style="width: 1057px; height: 47px; left: 112px; top: 2162px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Безопасность</div>
+        <div style="width: 1057px; height: 47px; left: 112px; top: 2612px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Сотрудничество</div>
+        <div style="width: 1057px; height: 47px; left: 112px; top: 2992px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Активности</div>
+        <div style="width: 1057px; height: 47px; left: 112px; top: 1302px; position: absolute; text-align: center; color: black; font-size: 40px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Наши преимущества</div>
+        <div style="width: 1057px; height: 194px; left: 108px; top: 804px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Туристический он-лайн гипермаркет «ТуристиКО» – один из динамично развивающихся интернет-проектов компании Avenue Retail, целью которого является предоставление качественных спортивных товаров для туризма и отдыха по России и странам СНГ.<br/>«ТуристиКО» – это место, где вы всегда сможете обеспечить себя и свою семью всем необходимым снаряжением для похода, кемпинга, путешествия, автотуризма, отдыха в выходных на природе или просто на даче.</div>
+        <div style="width: 1057px; height: 310px; left: 108px; top: 2264px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Любая покупка в Интернет-магазинах всегда связана с предоставлением персональных данных клиентом. Эти данные необходимы для обеспечения процесса оплаты и доставки заказа. Мы понимаем всю ценность этой информации и свою ответственность за ее хранение, обработку и использование, поэтому уделяем особое внимание таким параметрам, как безопасность и конфиденциальность.<br/>Мы гарантируем, что данные клиентов будут использоваться исключительно для поддержки процесса продажи. Мы гарантируем, что данные клиентов не будут передаваться третьим лицам, за исключением наших партнёров, которые участвуют в обеспечении условий договора с клиентом. Информация о клиенте хранится в системе с момента оформления покупки и недоступна для просмотра другими пользователями.</div>
+        <div style="width: 1057px; height: 243px; left: 108px; top: 2714px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Мы напрямую сотрудничаем с рядом российских и европейских поставщиков, что позволяет удерживать низкие розничные цены на большинство позиций.<br/>Мы также сотрудничаем с крупными коммерческими и государственными компаниями, обеспечивая выездные корпоративные мероприятия снаряжением по самым выгодным ценам.<br/>Наше снаряжение можно купить во всех крупнейших городах России: доставка осуществляется во все регионы страны.</div>
+        <div style="width: 1057px; height: 292px; left: 108px; top: 3094px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Мы активно продвигаем здоровый образ жизни и ежемесячно совместно с партнерами проводим выездные тематические мероприятия на природе: Yoga.Party, Нашествие, Design World и т.д.<br/>Суперпоход активно сотрудничает с такими фестивалями как “Нашествие”, “Этномир”, “Вегфест”, выступает в роли информационного и стратегического партнера во многих других спортивных и просветительских событиях.<br/>Наша задача – сделать ваш отдых заметным! Снаряжайтесь с нами!<br/>Легкой дороги и попутного ветра, берегите себя.</div>
+        <div style="width: 1057px; height: 205px; left: 107px; top: 1043px; position: absolute; color: black; font-size: 24px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Реквизиты: ГБПОУ «Пермский краевой колледж «Оникс»<br/>Адрес: 614068, Российская Федерация, Пермский край, г.о. Пермский, г. Пермь, ул. Пушкина, д. 107 а<br/>ИНН 5902290924<br/>ОГРН 1025900518610<br/></div>
+        <div style="width: 441px; height: 29px; left: 183px; top: 1429px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Всегда выгодные цены и гибкая система скидок</div>
+        <div style="width: 441px; height: 44px; left: 183px; top: 1580px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Оперативный обмен брака – в течение 5-7 дней по гарантии</div>
+        <div style="width: 441px; height: 44px; left: 183px; top: 1730px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Ассортимент насчитывает более 7000 товаров самых известных брендов</div>
+        <div style="width: 441px; height: 44px; left: 183px; top: 1880px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Гибкая система оплаты для физических и юридических лиц</div>
+        <div style="width: 441px; height: 44px; left: 183px; top: 2038px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Контроль качества: все товары перед доставкой проверяются и упаковываются</div>
+        <div style="width: 441px; height: 66px; left: 766px; top: 2034px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Возврат денег в случае отказа от товара в течение 10 дней – в зависимости от вашего банка</div>
+        <div style="width: 441px; height: 44px; left: 767px; top: 1880px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Доставка по России и любой транспортной компанией</div>
+        <div style="width: 441px; height: 44px; left: 766px; top: 1730px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Если товар не понравился, его можно вернуть или обменять на другой</div>
+        <div style="width: 441px; height: 44px; left: 767px; top: 1580px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Бесплатная доставка по Москве и до ТК заказов от 5000 руб</div>
+        <div style="width: 441px; height: 44px; left: 766px; top: 1422px; position: absolute; color: black; font-size: 18px; font-family: Segoe UI; font-weight: 400; word-wrap: break-word">Вся продукция сертифицирована и имеет гарантию производителя</div>
+
+        <img style="width: 1280px; height: 497px; left: 0px; top: 170px; position: absolute" src="content/company_logo_bg.png" />
+        <div style="left: 640px; top: 392px; position: absolute; color: white; font-size: 48px; font-family: Segoe UI; font-weight: 700; word-wrap: break-word">ТуристиКО</div>
+        <img style="width: 256px; height: 256px; left: 371px; top: 291px; position: absolute" src="content/logo_2.png" />
+
+        </div>
+        <div style="width: 1164px; height: 0px; left: 58px; top: 1276px; position: absolute; border: 1px black solid"></div>
+        <div style="width: 1164px; height: 0px; left: 58px; top: 2136px; position: absolute; border: 1px black solid"></div>
+        <img style="width: 100px; height: 100px; left: 58px; top: 1394px; position: absolute" src="content/icon_1.png" />
+        <img style="width: 100px; height: 100px; left: 641px; top: 1394px; position: absolute" src="content/icon_6.png" />
+        <img style="width: 100px; height: 100px; left: 57px; top: 1548px; position: absolute" src="content/icon_2.png" />
+        <img style="width: 100px; height: 100px; left: 641px; top: 1548px; position: absolute" src="content/icon_7.png" />
+        <img style="width: 100px; height: 100px; left: 58px; top: 1702px; position: absolute" src="content/icon_3.png" />
+        <img style="width: 100px; height: 100px; left: 641px; top: 1702px; position: absolute" src="content/icon_8.png" />
+        <img style="width: 100px; height: 100px; left: 58px; top: 1856px; position: absolute" src="content/icon_4.png" />
+        <img style="width: 100px; height: 100px; left: 641px; top: 1856px; position: absolute" src="content/icon_9.png" />
+        <img style="width: 100px; height: 100px; left: 62px; top: 2010px; position: absolute" src="content/icon_5.png" />
+        <img style="width: 100px; height: 100px; left: 641px; top: 2010px; position: absolute" src="content/icon_10.png" />
+    </div>
+</body>
+</html>

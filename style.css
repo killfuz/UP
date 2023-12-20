@@ -1,0 +1,1064 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input:invalid {
+    border: 3px solid red;
+  }
+
+::placeholder {
+    color: #42DE3F;
+}
+
+.header {
+    width: 1200px; 
+    height: 138px; 
+    left: 0px; 
+    top: -10px; 
+    position: absolute;
+    
+}
+
+#company-name {
+    left: 128px; 
+    top: 45px; 
+    position: absolute; 
+    color: #62B05B; 
+    font-size: 36px; 
+    font-family: Segoe UI; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+#city {
+    width: 79px; 
+    height: 29px; 
+    left: 429px; 
+    top: 25px; 
+    position: absolute; 
+    color: #62B05B; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#email {
+    width: 228px; 
+    height: 29px; 
+    left: 770px; 
+    top: 50px; 
+    position: absolute; 
+    color: #62B05B; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    word-wrap: break-word
+}
+
+#phone-number {
+    width: 230px; 
+    height: 29px; 
+    left: 429px; 
+    top: 65px; 
+    position: absolute; 
+    color: #62B05B; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.btn btn-secondary dropdown-toggle {
+    width: 166px; 
+    height: 29px; 
+    left: 670px; 
+    top: 11px; 
+    position: absolute
+}
+
+.popular-products {
+    width: 1110px; 
+    height: 374px; 
+    left: 63px;
+    top: 678px; 
+    position: absolute
+}
+
+#popular-products-title {
+    left: 446px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    letter-spacing: 1.20px; 
+    word-wrap: break-word
+}
+
+#catalogue-popular-products-title {
+    left: 446px; 
+    top: -480px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    letter-spacing: 1.20px; 
+    word-wrap: break-word
+}
+
+.reg-title {
+    left: 538px; 
+    top: 173px; 
+    position: absolute; 
+    color: #62B05B; 
+    font-size: 36px; 
+    font-family: Segoe UI; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.form-name-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 229px; 
+    position: absolute
+}
+
+#reg-title-name {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-name-title {
+    width: 57px; 
+    height: 29px; 
+    left: 180px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-name {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#name-input {
+    width: 121px; 
+    height: 19px; 
+    left: 95px; 
+    top: 0px;
+    bottom: 0px; 
+    position: absolute; 
+    color: #FFFFFF; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-surname-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 299px; 
+    position: absolute
+}
+#reg-title-surname {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-surname-title {
+    width: 112px; 
+    height: 29px; 
+    left: 152px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-surname {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#surname-input {
+    width: 178px; 
+    height: 20px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute;
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-patronymic-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 369px; 
+    position: absolute
+}
+
+#reg-title-patronymic {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-patronymic-title {
+    width: 118px; 
+    height: 29px; 
+    left: 152px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-patronymic {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#patronymic-input {
+    width: 179px; 
+    height: 22px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-login-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 439px; 
+    position: absolute
+}
+
+#reg-title-login {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-login-title {
+    width: 73px; 
+    height: 29px; 
+    left: 172px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-login {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#login-input {
+    width: 127px; 
+    height: 22px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-email-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 509px; 
+    position: absolute
+}
+
+#reg-title-email {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-email-title {
+    width: 73px; 
+    height: 29px; 
+    left: 172px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-email {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#email-input {
+    width: 127px; 
+    height: 22px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-pass-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 579px; 
+    position: absolute
+}
+
+#reg-title-pass {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-pass-title {
+    width: 92px; 
+    height: 29px; 
+    left: 165px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-input-pass {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#pass-input {
+    width: 142px; 
+    height: 22px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-pass-repeat-container {
+    width: 1028px; 
+    height: 157px; 
+    left: 128px; 
+    top: 649px; 
+    position: absolute
+}
+
+#reg-title-pass-repeat {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#reg-pass-repeat-title {
+    width: 226px; 
+    height: 29px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#reg-pass-repeat {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#pass-repeat-input {
+    width: 142px; 
+    height: 22px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.form-login-submit {
+    width: 342px; 
+    height: 50px; 
+    left: 480px; 
+    top: 800px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+.btn-login-submit-title {
+    width: 162px; 
+    height: 29px; 
+    left: 100px;
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.btn-login-submit-title a:hover {
+    color: #42DE3F;
+}
+
+.dropdown {
+    width: 166px; 
+    height: 29px; 
+    left: 670px; 
+    top: 10px; 
+    position: absolute;
+}
+
+.btn-primary {
+    width: 110px; 
+    height: 29px; 
+    left: 350px; 
+    top: 10px; 
+    position: absolute;
+    color: #42DE3F;
+}
+
+.auth-email-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 229px; 
+    position: absolute;
+}
+
+#auth-title-email {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#auth-email-title {
+    width: 55px; 
+    height: 30px; 
+    left: 180px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 22px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#auth-input-email {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#auth-email-input {
+    width: 121px; 
+    height: 29px; 
+    left: 95px; 
+    top: 0px;
+    bottom: 0px; 
+    position: absolute; 
+    color: #FFFFFF; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.auth-pass-container {
+    width: 1028px; 
+    height: 50px; 
+    left: 128px; 
+    top: 299px; 
+    position: absolute
+}
+
+#auth-title-pass {
+    width: 1028px; 
+    height: 50px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#auth-pass-title {
+    width: 112px; 
+    height: 29px; 
+    left: 180px; 
+    top: 5px; 
+    position: absolute; 
+    color: white; 
+    font-size: 22px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#auth-input-pass {
+    width: 376px; 
+    height: 29px; 
+    left: 568px; 
+    top: 40px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#auth-pass-input {
+    width: 178px; 
+    height: 30px; 
+    left: 95px; 
+    top: 0px; 
+    position: absolute;
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration-color: #FFF;
+    background-color: #22770D;
+    border-width: 0;
+}
+
+.profile-info-container {
+    width: 455px; 
+    height: 181px; 
+    left: 64px; 
+    top: 233px; 
+    position: absolute
+}
+
+#profile-info-bg {
+    width: 455px; 
+    height: 181px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#profile-info-email-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 137px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#profile-info-title {
+    width: 163px; 
+    height: 29px; 
+    left: 146px; 
+    top: 11px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#profile-info-email-title {
+    width: 358px; 
+    height: 29px; 
+    left: 24px; 
+    top: 136px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.checkout-config-container {
+    width: 455px; 
+    height: 181px; 
+    left: 764px; 
+    top: 233px; 
+    position: absolute
+}
+
+#checkout-config-bg {
+    width: 455px; 
+    height: 181px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#checkout-configuration-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 57px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#checkout-title {
+    width: 104px; 
+    height: 29px; 
+    left: 177px;
+    top: 11px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#checkout-config-title {
+    width: 358px; 
+    height: 29px; 
+    left: 24px; 
+    top: 57px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#checkout-proceed-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 107px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#checkout-proceed-title {
+    width: 358px; 
+    height: 29px; 
+    left: 24px; 
+    top: 107px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.payment-config-container {
+    width: 455px; 
+    height: 181px; 
+    left: 64px; 
+    top: 468px; 
+    position: absolute
+}
+
+#payment-config-bg {
+    width: 455px; 
+    height: 181px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#payment-method-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 56px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#payment-config-title {
+    width: 186px; 
+    height: 29px; 
+    left: 135px; 
+    top: 11px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#payment-method-title {
+    width: 205px; 
+    height: 29px; 
+    left: 24px; 
+    top: 56px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.orders-config-container {
+    width: 455px; 
+    height: 181px; 
+    left: 764px; 
+    top: 468px; 
+    position: absolute
+}
+
+#orders-config-bg {
+    width: 455px; 
+    height: 181px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#orders-more-bg {
+    width: 87px; 
+    height: 29px; 
+    left: 183px; 
+    top: 136px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#orders-more-title {
+    width: 79px; 
+    height: 29px; 
+    left: 191px; 
+    top: 136px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#order-1-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 56px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#order-1-title {
+    width: 205px; 
+    height: 29px; 
+    left: 24px;
+    top: 56px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#orders-config-title {
+    width: 89px; 
+    height: 29px; 
+    left: 183px; 
+    top: 11px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+#order-2-bg {
+    width: 376px; 
+    height: 29px; 
+    left: 16px; 
+    top: 96px; 
+    position: absolute; 
+    background: #22770D
+}
+
+#order-2-title {
+    width: 205px; 
+    height: 29px; 
+    left: 24px; 
+    top: 96px; 
+    position: absolute; 
+    color: #42DE3F; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.profile-config-submit {
+    width: 342px; 
+    height: 50px; 
+    left: 466px; 
+    top: 770px; 
+    position: absolute
+}
+
+#profile-config-submit-bg {
+    width: 342px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#profile-config-submit-title {
+    width: 162px; 
+    height: 29px; 
+    left: 90px; 
+    top: 11px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.cat-popular-submit {
+    width: 200px; 
+    height: 50px; 
+    left: 60px; 
+    top: 600px; 
+    position: absolute;
+}
+
+#cat-popular-submit-bg {
+    width: 200px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#cat-popular-submit-title {
+    width: 162px; 
+    height: 29px;
+    top: 0px;
+    left: 40px;  
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.cat-palatka-submit {
+    width: 200px; 
+    height: 50px; 
+    left: 790px; 
+    top: 600px; 
+    position: absolute;
+}
+
+#cat-palatka-submit-bg {
+    width: 200px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#cat-palatka-submit-title {
+    width: 162px; 
+    height: 29px;
+    top: 0px;
+    left: 40px;  
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.cat-kruzhka-submit {
+    width: 200px; 
+    height: 50px; 
+    left: 1040px; 
+    top: 600px; 
+    position: absolute;
+}
+
+#cat-kruzhka-submit-bg {
+    width: 200px; 
+    height: 50px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #3EA325
+}
+
+#cat-kruzhka-submit-title {
+    width: 162px; 
+    height: 29px;
+    top: 0px;
+    left: 40px;  
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Segoe UI; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
